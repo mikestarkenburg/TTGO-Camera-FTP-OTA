@@ -2,7 +2,7 @@
 //  mike@starkenburg.com
 //
 #define SKETCHNAME "TTGO Camera FTP OTA TEST"
-#define SKETCHVER 2022112001
+#define SKETCHVER 2022112301
 
 
 // ++++++++++++++++++++++++++++++++++ INCLUDES
@@ -211,8 +211,12 @@ Serial.println("Ready to go!");
 
 //////////////////////////////////////////////////////////
 // screwing around
-  FindLocalTime();            // get Current Date-Time
-  goToDeepSleep();            // sleep and start next cycle.
+//////////////////////////////////////////////////////////
+
+FindLocalTime();            // get Current Date-Time
+goToDeepSleep();            // sleep and start next cycle.
+
+
 
   ////////////////////////////////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////////////////////////////// 
